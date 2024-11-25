@@ -40,3 +40,30 @@ body {
   }
 
 }
+
+.carousel-item .card {
+  margin: auto;
+  width: 80%;
+  max-width: 400px;
+  border: none;
+}
+
+.carousel-item .image-top {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.carousel-item .card-body {
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 0 0 10px 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+}
